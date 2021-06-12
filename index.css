@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html {
+
+	background-color:#242526 !important;
+	height: 1500px;
+}
+
+body {
+    background-color:#242526 !important;
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+color:white;
+ 
+}
+
+
+.logo1 {
+
+  left: 50%;
+margin-left:-10px;
+top:250px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#music {
+
+  left: 50%;
+margin-left:-10px;
+top:650px;
+position:absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+
+}
+
+.map {
+  position: relative;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+top:650px;
+}
+
+.radio1 {
+
+position: absolute;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  
+}
+
+
+.button {
+
+  transform: scale(0.7); 
+
+   transition: transform .5s ease;5
+
+     
+ }
+
+.button:hover {
+
+overflow: hidden; 
+cursor: pointer;
+ transition: transform .5s ease;
+  transform: scale(1); 
+
+
+}
+
+iframe{
+   border-radius: 2%;
+}
+
+
+
+.filler {
+
+position: absolute;
+left: -210px;
+top: 50px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+
+.chess {
+
+position: absolute;
+left: 50%;
+top: 1000px;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#games {
+
+
+position: absolute;
+
+
+   transition: transform .5s ease;
+left: 50%;
+top: 840px;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+
+}
+
+
+#games:hover {
+
+overflow: hidden; 
+cursor: pointer;
+ transition: transform .5s ease;
+  transform: scale(1.35) translateX(-40%) translateY(-40%);
+
+
+}
